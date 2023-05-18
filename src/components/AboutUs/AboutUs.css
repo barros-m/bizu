@@ -1,0 +1,33 @@
+@import '../../assets/fonts/Fonts.css';
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.about-us-content {
+  text-align: center;
+  max-width: 800px; /* set the max-width as desired */
+}
+
+.about-us-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+  .about-us-title {
+    font-family: 'Higuen', serif;
+    text-transform: uppercase;
+  }
+  
+  

@@ -1,0 +1,45 @@
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social-icons a:first-child {
+  margin-left: 0;
+}
+
+
+.social-icons a {
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f3a3c8;
+}

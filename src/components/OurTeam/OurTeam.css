@@ -1,0 +1,57 @@
+.our-team {
+    padding: 50px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .our-team-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: inherit;
+  }
+  
+  .employee-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .employee-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+    text-align: right;
+  }
+  
+  .employee-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .employee-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .employee-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: inherit;
+    margin-right: 10px;
+  }
+  
+  .employee-instagram {
+    font-size: 1.5em;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  .employee-instagram:hover {
+    color: #f3a3c8;
+  }
+  
