@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   
   .testimonial-text {
@@ -26,10 +26,11 @@
   }
   
   .testimonial-author {
-    margin-top: 15px;
     display: flex;
     align-items: baseline;
+    justify-content: flex-end;
   }
+  
   
   .testimonial-author-image {
     width: 50px;
@@ -39,15 +40,15 @@
     margin-right: 10px;
   }
 
+  .testimonial-author-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
   
   .testimonial-author-position {
     font-size: 14px;
     color: #888;
   }
   
-  .testimonial-author-name {
-    font-size: 14px;
-    font-weight: bold;
-    color: #333;
-    margin-right: 10px;
-  }

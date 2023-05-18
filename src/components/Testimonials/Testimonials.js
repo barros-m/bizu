@@ -29,22 +29,22 @@ const Testimonials = () => {
 
   return (
     <section className="testimonials">
-      <div className='section-title'>What Our Customers Say</div>
-      {testimonialsData.map((testimonial) => (
-        <div className="testimonial" key={testimonial.id}>
-          <div className="testimonial-text">
-            <p>{testimonial.text}</p>
-          </div>
-          <div className="testimonial-author">
-            <img src={testimonial.image} alt={testimonial.author} className="testimonial-author-image" />
-            <div>
-                <p className="testimonial-author-name">{testimonial.author}</p>
-                <p className="testimonial-author-position">{testimonial.position}</p>
-            </div>
-          </div>
+  <div className='section-title'>What Our Customers Say</div>
+  {testimonialsData.map((testimonial) => (
+    <div className="testimonial" key={testimonial.id}>
+      <div className="testimonial-text">
+        <p>{testimonial.text}</p>
+      </div>
+      <div className="testimonial-author">
+        <div>
+            <p className="testimonial-author-name">{testimonial.author}</p>
+            <p className="testimonial-author-position">{testimonial.position}</p>
         </div>
-      ))}
-    </section>
+      </div>
+    </div>
+  ))}
+</section>
+
   );
 }
 
