@@ -15,7 +15,7 @@ const OurTeam = () => {
 
   return (
     <section className="our-team">
-    <h2 className="our-team-title">Our Team</h2>
+    <div className='section-title'>Our Team</div>
     <div className="employee-container">
       {employees.map((employee) => (
         <div key={employee.id} className="employee-card">

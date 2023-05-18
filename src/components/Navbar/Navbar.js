@@ -68,6 +68,11 @@ const Navbar = () => {
               Portfolio
             </div>
           </li>
+          <li className="navbar-item">
+            <div className="navbar-link" onClick={() => scrollToSection('testimonials')}>
+              Testimonials
+            </div>
+          </li>
         </ul>
       </div>
 

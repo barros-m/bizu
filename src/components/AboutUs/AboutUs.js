@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <section className="about-us">
       <div className="about-us-content">
-        <h2 className="about-us-title">About Us</h2>
+      <div className='section-title'>About Us</div>
         <p className="about-us-description">
         BIZU Agency is dedication to the highest quality of digital marketing - is a unique combination of creativity, strategy, flexibility, and productivity. We have the solution by applying our digital marketing expertise and personalized strategy for your business. We believe good enough just isn’t enough. Our goal is to ensure our clients are easily satisfied with the very best.
 

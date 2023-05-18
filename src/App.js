@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import OurTeam from './components/OurTeam/OurTeam';
 import OurServices from './components/OurServices/OurServices';
 import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
 
         <div id="portfolio">
           <Portfolio />
+        </div>
+
+        <div id="testimonials">
+          <Testimonials />
         </div>
 
         

@@ -9,44 +9,66 @@ import kikotattoo0 from '../../assets/images/porfolio/kiko_tattoo_rio_0.png';
 import kikotattoo1 from '../../assets/images/porfolio/kiko_tattoo_rio_1.png';
 
 import xande from '../../assets/images/porfolio/xande_negao_0.jpg';
+import xande1 from '../../assets/images/porfolio/xande_negao_1.jpg';
+
+import gringa0 from '../../assets/images/porfolio/gringa_brasileira_0.png';
+import gringa1 from '../../assets/images/porfolio/gringa_brasileira_1.png';
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
       image: jurey0,
-      title: 'Psychologist Juliana rey',
+      title: 'Psychologist Juliana Rey',
       link: 'https://instagram.com/psijulianarey',
     },
     {
       id: 2,
       image: kikotattoo0,
       title: 'Kiko Tattoo',
-      link: 'https://www.kikotattoo.com/',
+      link: 'https://www.instagram.com/kikotattoorio/',
     },
     {
       id: 3,
       image: xande,
       title: 'XN Studio',
-      link: 'https://instagram.com/xandenegao?igshid=MzRlODBiNWFlZA==',
+      link: 'https://instagram.com/xandenegao/',
     },
     {
       id: 4,
-      image: jurey1,
-      title: 'Psychologist Juliana rey',
-      link: 'https://instagram.com/psijulianarey',
+      image: gringa0,
+      title: 'Gringra Brasileira',
+      link: 'https://www.instagram.com/gringa.brasileiraa/',
     },
     {
       id: 5,
+      image: jurey1,
+      title: 'Psychologist Juliana Rey',
+      link: 'https://instagram.com/psijulianarey',
+    },
+    {
+      id: 6,
       image: kikotattoo1,
       title: 'Kiko Tattoo',
-      link: 'https://www.kikotattoo.com/',
+      link: 'https://www.instagram.com/kikotattoorio/',
+    },
+    {
+      id: 7,
+      image: xande1,
+      title: 'XN Studio',
+      link: 'https://instagram.com/xandenegao/',
+    },
+    {
+      id: 8,
+      image: gringa1,
+      title: 'Gringra Brasileira',
+      link: 'https://www.instagram.com/gringa.brasileiraa/',
     },
   ];
 
 return (
     <section className="portfolio">
-      <h2 className="portfolio-title">Portfolio</h2>
+      <div className='section-title'>Portfolio</div>
       <Carousel
         showThumbs={false}
         centerMode

@@ -1,0 +1,53 @@
+/* CSS for Testimonials Component */
+.testimonials {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-text {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .testimonial-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .testimonial-author {
+    margin-top: 15px;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .testimonial-author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  
+  .testimonial-author-position {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .testimonial-author-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+  }
