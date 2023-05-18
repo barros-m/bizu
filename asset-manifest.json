@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bizu/static/css/main.d96cacd4.css",
+    "main.js": "/bizu/static/js/main.cc15dbc6.js",
+    "static/media/home_video_miami_beach.mp4": "/bizu/static/media/home_video_miami_beach.031af7d02e878e7ecc88.mp4",
+    "static/media/manu.jpeg": "/bizu/static/media/manu.2ec165fc4162863ba3b9.jpeg",
+    "static/media/bizu_logo.png": "/bizu/static/media/bizu_logo.23c2708e4ec2915814f6.png",
+    "static/media/gringa_brasileira_1.png": "/bizu/static/media/gringa_brasileira_1.bf5c323f57bd71fb3611.png",
+    "static/media/kiko_tattoo_rio_1.png": "/bizu/static/media/kiko_tattoo_rio_1.d215a936d2094d389522.png",
+    "static/media/gringa_brasileira_0.png": "/bizu/static/media/gringa_brasileira_0.4316d6d73d0498e190b3.png",
+    "static/media/kiko_tattoo_rio_0.png": "/bizu/static/media/kiko_tattoo_rio_0.8bd2deece527e616ad8f.png",
+    "static/media/HiguenSerif.otf": "/bizu/static/media/HiguenSerif.98720178406c0848a634.otf",
+    "static/media/Quicksand-Regular.ttf": "/bizu/static/media/Quicksand-Regular.eaaa0325196cfc4dc15b.ttf",
+    "static/media/Quicksand-Medium.ttf": "/bizu/static/media/Quicksand-Medium.7792600dd06c7375ffad.ttf",
+    "static/media/Quicksand-Bold.ttf": "/bizu/static/media/Quicksand-Bold.4c95904387d18546c023.ttf",
+    "static/media/psi_julianarey_0.jpg": "/bizu/static/media/psi_julianarey_0.f8b28b73c6cdb3bfc82f.jpg",
+    "static/media/psi_julianarey_1.png": "/bizu/static/media/psi_julianarey_1.91ecb1fec8b9b0000c0d.png",
+    "static/media/xande_negao_0.jpg": "/bizu/static/media/xande_negao_0.ab4fb3cf3eb4f4554d95.jpg",
+    "static/media/xande_negao_1.jpg": "/bizu/static/media/xande_negao_1.8a529336ce2f0d445463.jpg",
+    "index.html": "/bizu/index.html",
+    "main.d96cacd4.css.map": "/bizu/static/css/main.d96cacd4.css.map",
+    "main.cc15dbc6.js.map": "/bizu/static/js/main.cc15dbc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d96cacd4.css",
+    "static/js/main.cc15dbc6.js"
+  ]
+}
