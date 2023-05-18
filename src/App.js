@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import OurTeam from './components/OurTeam/OurTeam';
 import OurServices from './components/OurServices/OurServices';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           <OurTeam />
         </div>
 
+        <div id="portfolio">
+          <Portfolio />
+        </div>
 
         
         <Footer />
