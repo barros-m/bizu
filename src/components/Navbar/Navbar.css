@@ -5,7 +5,7 @@
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@
 
 .navbar-logo img {
   max-width: 150px;
-  max-height: 50px;
+  max-height: 40px;
 }
 
 .navbar-menu {
@@ -52,17 +52,17 @@
 }
 
 .navbar-item {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .navbar-link {
-  font-size: 18px;
+  font-size: 14px;
   cursor: pointer;
 }
 
 .navbar-toggle {
   display: none;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
 }
 
