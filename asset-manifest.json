@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bizu/static/css/main.d96cacd4.css",
-    "main.js": "/bizu/static/js/main.cc15dbc6.js",
+    "main.css": "/bizu/static/css/main.dafae2af.css",
+    "main.js": "/bizu/static/js/main.0e36b2e3.js",
     "static/media/home_video_miami_beach.mp4": "/bizu/static/media/home_video_miami_beach.031af7d02e878e7ecc88.mp4",
     "static/media/manu.jpeg": "/bizu/static/media/manu.2ec165fc4162863ba3b9.jpeg",
     "static/media/bizu_logo.png": "/bizu/static/media/bizu_logo.23c2708e4ec2915814f6.png",
@@ -18,11 +18,11 @@
     "static/media/xande_negao_0.jpg": "/bizu/static/media/xande_negao_0.ab4fb3cf3eb4f4554d95.jpg",
     "static/media/xande_negao_1.jpg": "/bizu/static/media/xande_negao_1.8a529336ce2f0d445463.jpg",
     "index.html": "/bizu/index.html",
-    "main.d96cacd4.css.map": "/bizu/static/css/main.d96cacd4.css.map",
-    "main.cc15dbc6.js.map": "/bizu/static/js/main.cc15dbc6.js.map"
+    "main.dafae2af.css.map": "/bizu/static/css/main.dafae2af.css.map",
+    "main.0e36b2e3.js.map": "/bizu/static/js/main.0e36b2e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d96cacd4.css",
-    "static/js/main.cc15dbc6.js"
+    "static/css/main.dafae2af.css",
+    "static/js/main.0e36b2e3.js"
   ]
 }
