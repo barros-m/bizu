@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../../assets/videos/home_video_miami_beach.mp4';
+import video from '../../assets/videos/hero_video.mp4';
 import logo from '../../assets/images/bizu_logo.png';
 import './Hero.css';
 

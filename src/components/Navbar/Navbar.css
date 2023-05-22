@@ -71,10 +71,6 @@
     display: none;
   }
 
-  .navbar-toggle {
-    display: block;
-  }
-
   .navbar.active .navbar-menu-items {
     display: flex;
     flex-direction: column;
@@ -87,3 +83,15 @@
     margin-top: 10px;
   }
 }
+
+/* Add this media query to hide the navbar on mobile */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar.visible {
+    display: flex;
+  }
+}
+
