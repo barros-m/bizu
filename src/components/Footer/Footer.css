@@ -6,13 +6,13 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .logo {
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .logo img {
@@ -23,6 +23,7 @@
 .social-icons {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .social-icons a {
@@ -33,7 +34,6 @@
 .social-icons a:first-child {
   margin-left: 0;
 }
-
 
 .social-icons a {
   color: inherit;
