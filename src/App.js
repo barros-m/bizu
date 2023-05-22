@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
+import CompanyNumbers from './components/CompanyStats/CompanyNumbers';
 import OurTeam from './components/OurTeam/OurTeam';
 import OurServices from './components/OurServices/OurServices';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -34,7 +35,7 @@ function App() {
       </div>
 
       <div id="our-team">
-        <OurTeam />
+        <CompanyNumbers />
       </div>
 
       <div id="portfolio">
