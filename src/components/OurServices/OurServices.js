@@ -38,6 +38,17 @@ const OurServices = () => {
         title: 'Branding & Rebranding',
         description: 'Define or redefine your brand identity with our strategic branding and rebranding services.',
       },
+      {
+        id: 8,
+        title: 'Copywriting',
+        description: 'Capture your brand’s voice with engaging and persuasive copywriting that resonates with your audience.',
+      },
+      {
+        id: 9,
+        title: 'Customer Services',
+        description: 'Enhance your customer satisfaction with our top-notch customer service solutions.',
+      }
+      
     // Add more services here as needed
   ];
 
