@@ -59,8 +59,8 @@ const Navbar = () => {
             </div>
           </li>
           <li className="navbar-item">
-            <div className="navbar-link" onClick={() => scrollToSection('our-team')}>
-              Our Team
+            <div className="navbar-link" onClick={() => scrollToSection('stats')}>
+              Our Numbers
             </div>
           </li>
           <li className="navbar-item">

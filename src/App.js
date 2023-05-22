@@ -4,7 +4,6 @@ import Hero from './components/Hero/Hero';
 import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import CompanyNumbers from './components/CompanyStats/CompanyNumbers';
-import OurTeam from './components/OurTeam/OurTeam';
 import OurServices from './components/OurServices/OurServices';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from './components/Testimonials/Testimonials';
@@ -34,7 +33,7 @@ function App() {
         <OurServices />
       </div>
 
-      <div id="our-team">
+      <div id="stats">
         <CompanyNumbers />
       </div>
 
