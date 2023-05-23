@@ -26,3 +26,8 @@
   src: local('Quicksand Bold'), local('Quicksand-Bold'),
         url('../fonts/Quicksand/Quicksand-Bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'CodeProBalck';
+  src: url('../fonts/CodeProBlack.otf') format('opentype');
+}
