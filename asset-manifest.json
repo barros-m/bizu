@@ -1,19 +1,14 @@
 {
   "files": {
-    "main.css": "/bizu/static/css/main.1591e4d4.css",
-    "main.js": "/bizu/static/js/main.14c928dc.js",
+    "main.css": "/bizu/static/css/main.cedccd12.css",
+    "main.js": "/bizu/static/js/main.612aea7a.js",
     "static/media/hero_video.mp4": "/bizu/static/media/hero_video.b945317e3d0101694b7d.mp4",
     "static/media/bizu_logo.png": "/bizu/static/media/bizu_logo.23c2708e4ec2915814f6.png",
-    "static/media/DollarSign_1.png": "/bizu/static/media/DollarSign_1.69cb0b377276a3f6c254.png",
-    "static/media/Line_1.png": "/bizu/static/media/Line_1.885b24d2d6aea009092e.png",
-    "static/media/Arrow_9.png": "/bizu/static/media/Arrow_9.da96e7e86e0a9e2f1e01.png",
-    "static/media/Smiley_1.png": "/bizu/static/media/Smiley_1.ea814282a6a6107c3d3d.png",
     "static/media/gringa_brasileira_1.png": "/bizu/static/media/gringa_brasileira_1.bf5c323f57bd71fb3611.png",
     "static/media/kiko.jpeg": "/bizu/static/media/kiko.c9b87d7193bf733335ba.jpeg",
     "static/media/chris.jpeg": "/bizu/static/media/chris.7590d78cb444ef1e62d9.jpeg",
     "static/media/kiko_tattoo_rio_1.png": "/bizu/static/media/kiko_tattoo_rio_1.d215a936d2094d389522.png",
     "static/media/gringa_brasileira_0.png": "/bizu/static/media/gringa_brasileira_0.4316d6d73d0498e190b3.png",
-    "static/media/QuestionMark_2.png": "/bizu/static/media/QuestionMark_2.40f53824566ebd6c456e.png",
     "static/media/kiko_tattoo_rio_0.png": "/bizu/static/media/kiko_tattoo_rio_0.8bd2deece527e616ad8f.png",
     "static/media/bruna.jpeg": "/bizu/static/media/bruna.6bd4cb98245cf246e0da.jpeg",
     "static/media/HiguenSerif.otf": "/bizu/static/media/HiguenSerif.98720178406c0848a634.otf",
@@ -26,11 +21,11 @@
     "static/media/xande_negao_0.jpg": "/bizu/static/media/xande_negao_0.ab4fb3cf3eb4f4554d95.jpg",
     "static/media/xande_negao_1.jpg": "/bizu/static/media/xande_negao_1.8a529336ce2f0d445463.jpg",
     "index.html": "/bizu/index.html",
-    "main.1591e4d4.css.map": "/bizu/static/css/main.1591e4d4.css.map",
-    "main.14c928dc.js.map": "/bizu/static/js/main.14c928dc.js.map"
+    "main.cedccd12.css.map": "/bizu/static/css/main.cedccd12.css.map",
+    "main.612aea7a.js.map": "/bizu/static/js/main.612aea7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1591e4d4.css",
-    "static/js/main.14c928dc.js"
+    "static/css/main.cedccd12.css",
+    "static/js/main.612aea7a.js"
   ]
 }
