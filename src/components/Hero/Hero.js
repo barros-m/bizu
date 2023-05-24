@@ -12,8 +12,8 @@ const HeroSection = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <img src={logo} alt="Logo" className="hero-logo" />
-        <h1 className="hero-title">New era of Marketing.</h1>
-        <p className="hero-description">Quality over quantity.</p>
+        <h1 className="hero-title">New era of Marketing.<br/>Quality over quantity.</h1>
+        {/* <p className="hero-description">Quality over quantity</p> */}
       </div>
     </section>
   );
