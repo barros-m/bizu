@@ -5,9 +5,9 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Footer from './components/Footer/Footer';
 import CompanyNumbers from './components/CompanyStats/CompanyNumbers';
 import OurServices from './components/OurServices/OurServices';
-import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from './components/Testimonials/Testimonials';
 import { FaWhatsapp } from 'react-icons/fa';
+import PortfolioGrid from './components/Portfolio/NewPortfolio/PortfolioGrid';
 
 function App() {
   // Function to handle the click event of the WhatsApp button
@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div id="portfolio">
-        <Portfolio />
+        <PortfolioGrid />
       </div>
 
       <div id="testimonials">
