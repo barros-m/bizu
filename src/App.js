@@ -40,7 +40,9 @@ function App() {
       </div>
 
       <div id="portfolio">
-        <PortfolioGrid />
+        <section className="section section-numbers">
+          <PortfolioGrid />
+        </section>
       </div>
 
       <div id="testimonials">

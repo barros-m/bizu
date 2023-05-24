@@ -1,5 +1,6 @@
 import React from 'react';
 import './PortfolioGrid.css'; // Importing our CSS
+import '../Portfolio.css'
 
 import ju0 from '../../../assets/images/porfolio/psi_julianarey_0.jpg'
 import ju1 from '../../../assets/images/porfolio/psi_julianarey_1.png'
