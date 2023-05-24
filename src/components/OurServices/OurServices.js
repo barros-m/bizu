@@ -25,8 +25,8 @@ const OurServices = () => {
       },
       {
         id: 5,
-        title: 'Customer Relations',
-        description: 'Strengthen customer loyalty with personalized communication, support, and retention strategies.',
+        title: 'Paid Media',
+        description: 'Amplify your brand with targeted paid media campaigns. We craft compelling ads for optimal exposure and lead generation.',
       },
       {
         id: 6,
