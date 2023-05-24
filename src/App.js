@@ -25,16 +25,18 @@ function App() {
         <Hero />
       </div>
 
-      <div id="about-us">
+      <section className="section section-aboutus">
         <AboutUs />
-      </div>
+      </section>
 
       <div id="our-services">
         <OurServices />
       </div>
 
       <div id="stats">
-        <CompanyNumbers />
+        <section className="section section-numbers">
+          <CompanyNumbers />
+        </section>
       </div>
 
       <div id="portfolio">
@@ -42,7 +44,9 @@ function App() {
       </div>
 
       <div id="testimonials">
-        <Testimonials />
+        <section className="section section-testimonials">
+          <Testimonials />
+        </section>
       </div>
 
       <Footer />
