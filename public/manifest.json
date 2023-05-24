@@ -1,6 +1,6 @@
 {
   "short_name": "Bizu Agency",
-  "name": "Create React App Sample",
+  "name": "New era of Marketing. Quality over quantity.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "bizu_logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x216"
     },
     {
-      "src": "logo512.png",
+      "src": "bizu_logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x578"
     }
   ],
   "start_url": ".",
