@@ -11,7 +11,7 @@ const Footer = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="social-icons">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/bizumarketing" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
           <a href="https://www.linkedin.com/company/bizu-marketing/" target="_blank" rel="noopener noreferrer">

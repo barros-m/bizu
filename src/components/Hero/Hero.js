@@ -14,6 +14,9 @@ const HeroSection = () => {
         <img src={logo} alt="Logo" className="hero-logo" />
         <h1 className="hero-title">New era of Marketing.<br/>Quality over quantity.</h1>
         {/* <p className="hero-description">Quality over quantity</p> */}
+        <div style={{textAlign: 'center'}}>
+          <a href="mailto:contact@bizumarketing.com" className="contactButton">Contact Us!</a>
+        </div>
       </div>
     </section>
   );

@@ -25,9 +25,9 @@ function App() {
         <Hero />
       </div>
 
-      <section className="section section-aboutus">
+      <div id="about-us">
         <AboutUs />
-      </section>
+      </div>
 
       <div id="our-services">
         <OurServices />
