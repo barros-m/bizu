@@ -60,6 +60,10 @@
   cursor: pointer;
 }
 
+.navbar-link:hover {
+  color: #f3a3c8;
+}
+
 .navbar-toggle {
   display: none;
   font-size: 20px;

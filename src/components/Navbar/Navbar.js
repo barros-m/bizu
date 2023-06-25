@@ -43,11 +43,11 @@ const Navbar = () => {
 
       <div className="navbar-menu navbar-container">
         <ul className="navbar-menu-items">
-          <li className="navbar-item">
+          {/* <li className="navbar-item">
             <div className="navbar-link" onClick={() => scrollToSection('home')}>
               Home
             </div>
-          </li>
+          </li> */}
           <li className="navbar-item">
             <div className="navbar-link" onClick={() => scrollToSection('about-us')}>
               About us
@@ -66,6 +66,11 @@ const Navbar = () => {
           <li className="navbar-item">
             <div className="navbar-link" onClick={() => scrollToSection('portfolio')}>
               Portfolio
+            </div>
+          </li>
+          <li className="navbar-item">
+            <div className="navbar-link" onClick={() => scrollToSection('case-studies')}>
+              Case Studies
             </div>
           </li>
           <li className="navbar-item">

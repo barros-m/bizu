@@ -8,6 +8,7 @@ import OurServices from './components/OurServices/OurServices';
 import Testimonials from './components/Testimonials/Testimonials';
 import { FaWhatsapp } from 'react-icons/fa';
 import PortfolioGrid from './components/Portfolio/NewPortfolio/PortfolioGrid';
+import CaseStudies from './components/CaseStudy/CaseStudies';
 
 function App() {
   // Function to handle the click event of the WhatsApp button
@@ -42,6 +43,12 @@ function App() {
       <div id="portfolio">
         <section className="section section-numbers">
           <PortfolioGrid />
+        </section>
+      </div>
+
+      <div id="case-studies">
+        <section className="section section-numbers">
+          <CaseStudies />
         </section>
       </div>
 

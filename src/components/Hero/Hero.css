@@ -68,12 +68,36 @@
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
-  /* font-weight: bold; */
   margin: 0 auto;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  /* Add below properties to create a text animation */
+  position: relative;
+  overflow: hidden;
 }
 
 .contactButton:hover {
-  background-color: #67c1e2;  /* change color when hovered */
+  transform: scale(1.1);  /* The button slightly increases its size when hovered */
+  background-color: #67c1e2;
+  color: #67c1e2;
+}
+
+.contactButton::before {
+  content: "Contact Us!";
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactButton:hover::before {
+  transform: translateY(0);
 }
 
 
