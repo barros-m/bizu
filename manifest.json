@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "bizu_logo192.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x216"
     },
     {
-      "src": "bizu_logo512.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x578"
     }
