@@ -6,9 +6,10 @@ import './Hero.css';
 const HeroSection = () => {
   return (
     <section className="hero">
-      <video className="hero-video" autoPlay muted loop>
+      <video className="hero-video" autoPlay muted loop playsInline>
         <source src={video} type="video/mp4" />
       </video>
+
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <img src={logo} alt="Logo" className="hero-logo" />
