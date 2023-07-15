@@ -62,14 +62,12 @@ function PortfolioGrid() {
         <div className='section-title'>Portfolio</div>
         <div className="grid">
         {portfolio.map((item, index) => (
-            // <a href={item.url} key={index} target="_blank" rel="noopener noreferrer">
             <div className="grid-item">
                 <img src={item.src} alt={item.alt} className="grid-image" />
                 <div className="overlay">
                 <div className="text">{item.details}</div>
                 </div>
             </div>
-            // </a>
         ))}
         </div>
     </section>
