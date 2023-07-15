@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3391443f.css",
-    "main.js": "/static/js/main.d4b85b7f.js",
+    "main.css": "/static/css/main.2fe25eb5.css",
+    "main.js": "/static/js/main.a7090a81.js",
     "static/media/hero_video.mp4": "/static/media/hero_video.b945317e3d0101694b7d.mp4",
     "static/media/bizu_1.png": "/static/media/bizu_1.5e7a0bf359ed7f61e3e8.png",
     "static/media/bizu_0.png": "/static/media/bizu_0.b48654a2ba528910e2d8.png",
@@ -14,7 +14,10 @@
     "static/media/kiko.jpeg": "/static/media/kiko.c9b87d7193bf733335ba.jpeg",
     "static/media/chris.jpeg": "/static/media/chris.7590d78cb444ef1e62d9.jpeg",
     "static/media/kiko_tattoo_rio_1.png": "/static/media/kiko_tattoo_rio_1.d215a936d2094d389522.png",
+    "static/media/tmr_barbershop_1.jpeg": "/static/media/tmr_barbershop_1.9d71d157eb1a78816a10.jpeg",
     "static/media/gringa_brasileira_0.png": "/static/media/gringa_brasileira_0.4316d6d73d0498e190b3.png",
+    "static/media/tmr_barbershop_0.jpeg": "/static/media/tmr_barbershop_0.4259630203ff9e6e932e.jpeg",
+    "static/media/tmr_barbershop_2.jpeg": "/static/media/tmr_barbershop_2.df8846f3981dbdc3aa18.jpeg",
     "static/media/kiko_tattoo_rio_0.png": "/static/media/kiko_tattoo_rio_0.8bd2deece527e616ad8f.png",
     "static/media/bruna.jpeg": "/static/media/bruna.6bd4cb98245cf246e0da.jpeg",
     "static/media/HiguenSerif.otf": "/static/media/HiguenSerif.98720178406c0848a634.otf",
@@ -28,11 +31,11 @@
     "static/media/xande_negao_0.jpg": "/static/media/xande_negao_0.ab4fb3cf3eb4f4554d95.jpg",
     "static/media/xande_negao_1.jpg": "/static/media/xande_negao_1.8a529336ce2f0d445463.jpg",
     "index.html": "/index.html",
-    "main.3391443f.css.map": "/static/css/main.3391443f.css.map",
-    "main.d4b85b7f.js.map": "/static/js/main.d4b85b7f.js.map"
+    "main.2fe25eb5.css.map": "/static/css/main.2fe25eb5.css.map",
+    "main.a7090a81.js.map": "/static/js/main.a7090a81.js.map"
   },
   "entrypoints": [
-    "static/css/main.3391443f.css",
-    "static/js/main.d4b85b7f.js"
+    "static/css/main.2fe25eb5.css",
+    "static/js/main.a7090a81.js"
   ]
 }
