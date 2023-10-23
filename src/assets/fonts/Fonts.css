@@ -31,3 +31,17 @@
   font-family: 'CodeProBalck';
   src: url('../fonts/CodeProBlack.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
