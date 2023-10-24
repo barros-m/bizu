@@ -1,59 +1,65 @@
-import React from 'react';
+import './CompanyNumbers.css';  
+import React, { useState } from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-import './CompanyNumbers.css'; 
 
-const CompanyNumbers = () => {
+function CompanyNumbers() {
+  const numbers = [
+    {
+      number: 6913386,
+      text: "Paid Reach",
+      duration: 5
+    },
+    {
+      number: 37908,
+      start: 10000,
+      text: "New Instagram Followers",
+      duration: 3
+    },
+    {
+      number: 657931,
+      start:  300000,
+      text: "Clients Sales Revenue",
+      prefix: '$',
+      duration: 2
+    },
+    {
+      number: 620664,
+      start:  100000,
+      text: "Page Visits",
+      duration: 4
+    }
+  ];
+
+  const [visible, setVisible] = useState(false);
+
   return (
     <section className="company-numbers">
-      <h1 className="section-title">Our Key Numbers</h1>
-    <div className="numbers">
-      <div className="number-item">
-        <CountUp start={0} end={6552834} delay={0}>
-          {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
-              <span ref={countUpRef} />
-            </VisibilitySensor>
-          )}
-        </CountUp>
-        <h2>Paid Reach</h2>
-      </div>
-      {/* Repeat for the other statistics */}
-      <div className="number-item">
-        <CountUp start={0} end={33965} delay={0}>
-          {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
-              <span ref={countUpRef} />
-            </VisibilitySensor>
-          )}
-        </CountUp>
-        <h2>New Instagram Followers</h2>
-      </div>
-      <div className="number-item">
-        <CountUp start={0} end={497873} delay={0} prefix="$">
-          {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
-              <span ref={countUpRef} />
-            </VisibilitySensor>
-          )}
-        </CountUp>
-        <h2>Clients Sales Revenue</h2>
-      </div>
-      <div className="number-item">
-        <CountUp start={0} end={620664} delay={0}>
-          {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
-              <span ref={countUpRef} />
-            </VisibilitySensor>
-          )}
-        </CountUp>
-        <h2>Page Visits</h2>
-        
-      </div>
-    </div>
+        <h1 className="section-title">Our Key Numbers</h1>
+        <VisibilitySensor 
+          partialVisibility
+          onChange={(isVisible) => {
+            if (isVisible) {
+              setVisible(true);
+            }
+          }}>
+          <div className="numbers">
+            {
+              numbers.map((item, index) => (
+                  <div className="number-item" key={index}>
+                      <CountUp 
+                        start={visible ? (item.start || 0) : null}
+                        end={item.number} 
+                        duration={item.duration} 
+                        prefix={item.prefix || ''} />
+                      <h2>{item.text}</h2>
+                  </div>
+              ))
+            }
+          </div>
+        </VisibilitySensor>
     </section>
   );
-};
+}
 
 export default CompanyNumbers;
-
