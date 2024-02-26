@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01ef00b0.css",
-    "main.js": "/static/js/main.81c6729c.js",
+    "main.css": "/static/css/main.3c46622f.css",
+    "main.js": "/static/js/main.48465c3f.js",
     "static/media/hero_video.mp4": "/static/media/hero_video.b945317e3d0101694b7d.mp4",
     "static/media/bizu_1.png": "/static/media/bizu_1.5e7a0bf359ed7f61e3e8.png",
     "static/media/bizu_0.png": "/static/media/bizu_0.b48654a2ba528910e2d8.png",
@@ -36,11 +36,11 @@
     "static/media/xande_negao_0.jpg": "/static/media/xande_negao_0.ab4fb3cf3eb4f4554d95.jpg",
     "static/media/xande_negao_1.jpg": "/static/media/xande_negao_1.8a529336ce2f0d445463.jpg",
     "index.html": "/index.html",
-    "main.01ef00b0.css.map": "/static/css/main.01ef00b0.css.map",
-    "main.81c6729c.js.map": "/static/js/main.81c6729c.js.map"
+    "main.3c46622f.css.map": "/static/css/main.3c46622f.css.map",
+    "main.48465c3f.js.map": "/static/js/main.48465c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ef00b0.css",
-    "static/js/main.81c6729c.js"
+    "static/css/main.3c46622f.css",
+    "static/js/main.48465c3f.js"
   ]
 }
