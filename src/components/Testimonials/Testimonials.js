@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import img_kiko from '../../assets/images/testimonials/kiko.jpeg'
 import img_chris from '../../assets/images/testimonials/chris.jpeg'
 import img_bruna from '../../assets/images/testimonials/bruna.jpeg'
@@ -30,20 +30,34 @@ const Testimonials = () => {
     // Additional testimonials can be added here
   ];
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "//embed.typeform.com/next/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up the script to avoid loading it multiple times or memory leaks
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section className="testimonials">
-  <div className='section-title'>What Our Customers Say</div>
-  {testimonialsData.map((testm) => (
-    <div className="testimonial-card">
-    <img className="testimonial-image" src={testm.image} alt={`${testm.author}'s photo`} />
-    <div className="testimonial-content">
-      <h3 className="testimonial-name">{testm.author}</h3>
-      <h4 className="testimonial-position">{testm.position}</h4>
-      <p className="testimonial-quote">“{testm.text}”</p>
-    </div>
-  </div>
-  ))}
-</section>
+        <div className='section-title'>What Our Customers Say</div>
+        {
+        testimonialsData.map((testm) => (
+            <div className="testimonial-card">
+                <img className="testimonial-image" src={testm.image} alt={`${testm.author}'s photo`} />
+                <div className="testimonial-content">
+                    <h3 className="testimonial-name">{testm.author}</h3>
+                    <h4 className="testimonial-position">{testm.position}</h4>
+                    <p className="testimonial-quote">“{testm.text}”</p>
+                </div>
+            </div>
+            ))
+        }
+    </section>
 
   );
 }

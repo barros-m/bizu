@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import { FaWhatsapp } from 'react-icons/fa';
 import PortfolioGrid from './components/Portfolio/NewPortfolio/PortfolioGrid';
 import CaseStudies from './components/CaseStudy/CaseStudies';
+import Typeform from './components/Typeform/Typeform';
 
 function App() {
   // Function to handle the click event of the WhatsApp button
@@ -56,6 +57,11 @@ function App() {
         <section className="section section-testimonials">
           <Testimonials />
         </section>
+      </div>
+
+      <div>
+        <Typeform />
+
       </div>
 
       <Footer />
