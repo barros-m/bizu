@@ -26,6 +26,11 @@ import tmr0 from '../../../assets/images/porfolio/tmr_barbershop_0.jpeg'
 import tmr1 from '../../../assets/images/porfolio/tmr_barbershop_1.jpeg'
 import tmr2 from '../../../assets/images/porfolio/tmr_barbershop_2.jpeg'
 
+import w2m0 from '../../../assets/images/porfolio/woman2mom_0.jpeg'
+import w2m1 from '../../../assets/images/porfolio/woman2mom_1.jpeg'
+import w2m2 from '../../../assets/images/porfolio/woman2mom_2.jpeg'
+
+
 function PortfolioGrid() {
 
     const portfolio = [
@@ -53,6 +58,10 @@ function PortfolioGrid() {
         { src: tmr0, alt: 'TMRBarbershop', details: 'The Men\'s Room Barbershop', url: 'https://instagram.com/tmrbarbershop.miami' },
         { src: tmr1, alt: 'TMRBarbershop', details: 'The Men\'s Room Barbershop', url: 'https://instagram.com/tmrbarbershop.miami' },
         { src: tmr2, alt: 'TMRBarbershop', details: 'The Men\'s Room Barbershop', url: 'https://instagram.com/tmrbarbershop.miami' },
+
+        { src: w2m0, alt: 'TMRBarbershop', details: 'Woman 2 Mom', url: 'https://instagram.com/woman2mom' },
+        { src: w2m1, alt: 'TMRBarbershop', details: 'Woman 2 Mom', url: 'https://instagram.com/woman2mom' },
+        { src: w2m2, alt: 'TMRBarbershop', details: 'Woman 2 Mom', url: 'https://instagram.com/woman2mom' },
 
         // add more images as needed
     ];
